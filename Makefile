@@ -11,7 +11,7 @@ threads: threads.c
 	$(CC) $(CFLAGS) threads.c -o threads
 
 permissions:
-	chmod +x control_script.sh
+	chmod +x bash_script.sh
 
 
 # Clean up the compiled files and any output
