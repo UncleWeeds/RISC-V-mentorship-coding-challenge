@@ -9,7 +9,9 @@ all: threads
 # Compiles the threads program
 threads: threads.c
 	$(CC) $(CFLAGS) threads.c -o threads
-        chmod +x bash_script.sh
+
+permissions:
+	chmod +x control_script.sh
 
 
 # Clean up the compiled files and any output
